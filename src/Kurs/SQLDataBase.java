@@ -6,7 +6,7 @@ import java.util.ArrayList;
  */
 public class SQLDataBase {
 
-    public ArrayList<String> SQLReadDrivers(){
+    public ArrayList<DriversCars> SQLReadDrivers(){
         try {
             // спробувати завантажити драйвер
             Class.forName("com.mysql.jdbc.Driver").newInstance();
@@ -36,7 +36,9 @@ public class SQLDataBase {
 
 
                 // обробляємо отримані результати
-                ArrayList<String> table = new ArrayList<String>();
+              //  ArrayList<String> table = new ArrayList<String>();
+
+                ArrayList<DriversCars> table = new ArrayList<DriversCars>();
 
                 while (res.next()) {
                     String name_driv = res.getString("name_driv");
@@ -45,12 +47,22 @@ public class SQLDataBase {
                     String model = res.getString("model");
                     String car_number = res.getString("car_number");
                     String color = res.getString("color");
-                    table.add(name_driv+ ", "+ phone_number+ ", "+ driving_experience+", "+model+ ", "+ color + ", "+ car_number);
+
+                    table.add(new DriversCars(name_driv,phone_number,driving_experience,model,car_number,color));
+
+                //   String format = String.format( "%-15s %-20s %-20s %-30s %-20s %-20s",
+                     //      name_driv, phone_number,driving_experience,model,color,car_number);
+
+                   //table.add(format) ;
+                   //table.add(name_driv+ ", "+ phone_number+ ", "+ driving_experience+", "+model+ ", "+ color + ", "+ car_number);
+
+
                 }
 
                 // видаляємо об’єкт Statement
                 stm.close();
                 return  table;
+
 
 
             } catch (SQLException ex) {
@@ -70,5 +82,7 @@ public class SQLDataBase {
 
         return null;
     }
+
+
 
 }

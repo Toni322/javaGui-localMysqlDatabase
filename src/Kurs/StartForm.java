@@ -15,7 +15,6 @@ public class StartForm extends JFrame{
     private JButton button1;
 
     DefaultListModel model;
-
     SQLDataBase sqlDataBase;
 
     public StartForm(){
@@ -30,17 +29,12 @@ public class StartForm extends JFrame{
 
         model =new DefaultListModel();
         list_orders.setModel(model);
-
         sqlDataBase = new SQLDataBase();
 
         buttonShow.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-            model.clear();
-                ArrayList<String> table =sqlDataBase.SQLReadDrivers();
-                for (String row : table) {
-                    model.addElement(row);
-                }
+
 
             }
         });
@@ -50,7 +44,7 @@ public class StartForm extends JFrame{
         buttonShowDriver.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                DialogDrivers dialogDrivers = new DialogDrivers();
+                DriversForm driversForm = new DriversForm();
 
             }
         });
