@@ -6,13 +6,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class MyTableModel implements TableModel {
+public class TableModelDrivers implements TableModel {
 
     private Set<TableModelListener> listeners = new HashSet<TableModelListener>();
 
     private List<DriversCars> driversCarss;
 
-    public MyTableModel(List<DriversCars> driversCarss) {
+    public TableModelDrivers(List<DriversCars> driversCarss) {
         this.driversCarss = driversCarss;
     }
 
@@ -25,23 +25,25 @@ public class MyTableModel implements TableModel {
     }
 
     public int getColumnCount() {
-        return 6;
+        return 7;
     }
 
     public String getColumnName(int columnIndex) {
         switch (columnIndex) {
             case 0:
-                return "Driver name";
+                return "Id";
             case 1:
-                return "Phone";
+                return "Driver name";
             case 2:
-                return "Exp";
+                return "Phone number";
             case 3:
-                return "Model";
+                return "Driving experience";
             case 4:
-                return "CarNum";
+                return "Car Model";
             case 5:
-                return "Col";
+                return "Car number";
+            case 6:
+                return "Color";
         }
         return "";
     }
@@ -54,16 +56,18 @@ public class MyTableModel implements TableModel {
         DriversCars driversCars = driversCarss.get(rowIndex);
         switch (columnIndex) {
             case 0:
-                return driversCars.getName_driv();
+                return driversCars.getId();
             case 1:
-                return driversCars.getPhone_number();
+                return driversCars.getName_driv();
             case 2:
-                return driversCars.getDriving_experience();
+                return driversCars.getPhone_number();
             case 3:
-                return driversCars.getModel();
+                return driversCars.getDriving_experience();
             case 4:
-                return driversCars.getCar_number();
+                return driversCars.getModel();
             case 5:
+                return driversCars.getCar_number();
+            case 6:
                 return driversCars.getColor();
         }
         return "";
@@ -80,5 +84,4 @@ public class MyTableModel implements TableModel {
     public void setValueAt(Object value, int rowIndex, int columnIndex) {
 
     }
-
 }

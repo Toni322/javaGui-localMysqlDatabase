@@ -1,6 +1,7 @@
 package Kurs;
 
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,53 +14,65 @@ public class DriversForm extends JFrame {
     private JPanel rootpanel;
     private JList listDrivers;
     private JButton buttonShowDivers;
-    private JButton button2;
-    private JButton button3;
+    private JButton addDriverButton;
+    private JButton buttonDeleteDriver;
     private JTable tableDrivers;
 
-   // DefaultListModel model;
+
     TableModel tableModel;
     SQLDataBase sqlDataBase;
 
     public DriversForm(){
-        super("Hello, its me");
-        this.setSize(700,300);
+        super("Drivers");
+        this.setSize(750,300);
         setContentPane(rootpanel);
-    //    this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
-       // this.setResizable(false);
+        this.setLocationRelativeTo(null);
+        this.setResizable(false);
 
-      //  model =new DefaultListModel();
-      //  listDrivers.setModel(model);
+
 
         sqlDataBase = new SQLDataBase();
 
-        ArrayList<DriversCars> drivers = sqlDataBase.SQLReadDrivers();
-        tableModel = new MyTableModel(drivers);
-        tableDrivers.setModel(tableModel);
-
-      //  showDrivers();
-
+        showTable();
 
         buttonShowDivers.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               // showDrivers();
-
+           showTable();
             }
         });
+
+    addDriverButton.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            addDrivers();
+        }
+    });
+
+    buttonDeleteDriver.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            deleteDriver();
+        }
+    });
+
     }
 
 
-    private void showDrivers(){
-     //   model.clear();
-//        ArrayList<String> table =sqlDataBase.SQLReadDrivers();
-//        for (String row : table) {
-//            model.addElement(row);
-//        }
+    private  void showTable(){
+        ArrayList<DriversCars> drivers = sqlDataBase.SQLReadDrivers();
+        tableModel = new TableModelDrivers(drivers);
+        tableDrivers.setModel(tableModel);
+        tableDrivers.getColumnModel().getColumn(0).setPreferredWidth(3);
+    }
 
+    private void addDrivers(){
+        AddDriverForm addDriver = new AddDriverForm();
+    }
 
-
+    private void deleteDriver(){
+        DeleteDriverForm deleteDriverForm = new DeleteDriverForm();
     }
 
 }

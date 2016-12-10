@@ -1,6 +1,10 @@
 package Kurs;
 
 public class DriversCars{
+    String id;
+
+
+
     String name_driv;
     String phone_number;
     String driving_experience;
@@ -8,13 +12,22 @@ public class DriversCars{
     String car_number;
     String color;
 
-    public DriversCars(String name_driv, String phone_number, String driving_experience, String model, String car_number, String color) {
+    public DriversCars(String id, String name_driv, String phone_number, String driving_experience, String model, String car_number, String color) {
+        this.id = id;
         this.name_driv = name_driv;
         this.phone_number = phone_number;
         this.driving_experience = driving_experience;
         this.model = model;
         this.car_number = car_number;
         this.color = color;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName_driv() {
