@@ -207,5 +207,124 @@ public class SQLDataBase {
         }
     }
 
+    public ArrayList<Customers> SQLReadCustomers(){
+        try {
+            // спробувати завантажити драйвер
+            Class.forName("com.mysql.jdbc.Driver").newInstance();
+        } catch (Exception ex) {
+            // у випадку невдачі, друкуємо інформацію про виключну ситуацію
+            ex.printStackTrace();
+            System.out.println("Loh");
+        }
+        // формуємо адресу БД
+        String url = "jdbc:mysql://localhost:3306/kursova";
+        String login = "root";
+        String passwd = "1488";
 
+
+        try {
+            // з’єднуємося із сервером БД
+            Connection conn =
+                    DriverManager.getConnection(url, login, passwd);
+            System.out.println("Connection established.");
+ /* виконуємо запити до БД */
+            try {
+                // Створюємо об’єкт Statement
+                Statement stm = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
+                        ResultSet.CONCUR_READ_ONLY);
+                // виконуємо запит до сервера
+                ResultSet res = stm.executeQuery("SELECT * FROM custumers");
+
+
+                // обробляємо отримані результати
+                ArrayList<Customers> table = new ArrayList<Customers>();
+
+                while (res.next()) {
+                    String id = res.getString("id");
+                    String name_cust = res.getString("name_cust");
+                    String phone_number = res.getString("phone_number");
+
+
+                    table.add(new Customers(id,name_cust,phone_number));
+
+                }
+
+                // видаляємо об’єкт Statement
+                stm.close();
+                return  table;
+
+
+
+            } catch (SQLException ex) {
+                // виводимо інформацію про виключну ситуацію
+                System.out.println("SQLException: " + ex.getMessage());
+                System.out.println("SQLState: " + ex.getSQLState());
+                System.out.println("VendorError: " + ex.getErrorCode());
+            }
+
+            // завершуємо сеанс роботи з БД
+            conn.close();
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public void SQLAddNewCust(String name_cust, String phone_number){
+        try {
+            Class.forName("com.mysql.jdbc.Driver").newInstance();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        String url = "jdbc:mysql://localhost:3306/kursova";
+        String login = "root";
+        String passwd = "1488";
+        try {
+            Connection conn = DriverManager.getConnection(url, login, passwd);
+            System.out.println("Connection established. Write");
+            try {
+                Statement stm = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
+                        ResultSet.CONCUR_READ_ONLY);
+                stm.executeUpdate ("insert into custumers(name_cust,phone_number) values('"+name_cust+"','"+phone_number+"');");
+                stm.close();
+            } catch (SQLException ex) {
+                System.out.println("SQLException: " + ex.getMessage());
+                System.out.println("SQLState: " + ex.getSQLState());
+                System.out.println("VendorError: " + ex.getErrorCode());
+            }
+            conn.close();
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    public void SQLDeleteCust(String idCust){
+        try {
+            Class.forName("com.mysql.jdbc.Driver").newInstance();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            System.out.println("Loh");
+        }
+        String url = "jdbc:mysql://localhost:3306/kursova";
+        String login = "root";
+        String passwd = "1488";
+        try {
+            Connection conn = DriverManager.getConnection(url, login, passwd);
+            System.out.println("Connection established. Delete");
+            try {
+                Statement stm = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
+                        ResultSet.CONCUR_READ_ONLY);
+                stm.executeUpdate ("delete from custumers where id = '"+idCust+"';");
+                stm.close();
+            } catch (SQLException ex) {
+                System.out.println("SQLException: " + ex.getMessage());
+                System.out.println("SQLState: " + ex.getSQLState());
+                System.out.println("VendorError: " + ex.getErrorCode());
+            }
+            conn.close();
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+    }
 }

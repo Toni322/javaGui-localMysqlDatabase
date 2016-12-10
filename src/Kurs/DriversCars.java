@@ -2,9 +2,6 @@ package Kurs;
 
 public class DriversCars{
     String id;
-
-
-
     String name_driv;
     String phone_number;
     String driving_experience;

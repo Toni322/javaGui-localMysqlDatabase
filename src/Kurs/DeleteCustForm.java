@@ -5,18 +5,16 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by Roma on 08.12.2016.
+ * Created by Roma on 10.12.2016.
  */
-public class DeleteDriverForm extends  DriversForm{
+public class DeleteCustForm extends CustomerForm {
     private JPanel rootpanel;
+    private JButton buttonDelete;
     private JTextField textFieldDeleteId;
-    private JButton deleteButton;
 
     SQLDataBase sqlDataBase;
-    String id;
 
-    public DeleteDriverForm(){
-      //  super("Delete driver");
+    public DeleteCustForm(){
         this.setSize(250,100);
         setContentPane(rootpanel);
         this.setVisible(true);
@@ -25,19 +23,18 @@ public class DeleteDriverForm extends  DriversForm{
 
         sqlDataBase = new SQLDataBase();
 
-        deleteButton.addActionListener(new ActionListener() {
+        buttonDelete.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                deleteFomDrivers();
+                deleteCust();
             }
         });
-
     }
 
-    private void deleteFomDrivers(){
-        id = textFieldDeleteId.getText().toString();
-        sqlDataBase.SQLDeleteDriver(id);
-        textFieldDeleteId.setText("");
-    }
+        private void deleteCust(){
+            String id = textFieldDeleteId.getText().toString();
+            sqlDataBase.SQLDeleteCust(id);
+            textFieldDeleteId.setText("");
+        }
 
 }

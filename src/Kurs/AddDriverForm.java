@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 /**
  * Created by Roma on 08.12.2016.
  */
-public class AddDriverForm extends JFrame {
+public class AddDriverForm extends DriversForm {
     private JPanel rootpanel;
     private JTextField textFieldDriveName;
     private JTextField textFieldPhone;
@@ -29,7 +29,7 @@ public class AddDriverForm extends JFrame {
 
     public AddDriverForm(){
 
-        super("Add new driver");
+       // super("Add new driver");
         this.setSize(300,230);
         setContentPane(rootpanel);
         this.setVisible(true);
@@ -43,7 +43,6 @@ public class AddDriverForm extends JFrame {
     buttonAddDriv.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
-
             addNewDriver();
         }
     });
@@ -61,6 +60,14 @@ public class AddDriverForm extends JFrame {
         color = textFieldColor.getText().toString();
 
         sqlDataBase.SQLAddNewDriver(name,phone,exp,model,carNumb,color);
+
+        textFieldDriveName.setText("");
+        textFieldPhone.setText("");
+        textFieldExp.setText("");
+        textFieldModel.setText("");
+        textFieldCarNumb.setText("");
+        textFieldColor.setText("");
+
     }
 
 
