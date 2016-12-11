@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c02bb2eb-6b7c-462c-afd7-74a4a6be78f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kurs/AddCustForm.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kurs/AddCustForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kurs/Customers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kurs/DeleteCustForm.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kurs/DeleteCustForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kurs/DeleteOrderForm.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kurs/DeleteOrderForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kurs/TableModelCustomers.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Kurs/Main.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/AddDriverForm$1.class" afterPath="$PROJECT_DIR$/out/production/Kursova/Kurs/AddDriverForm$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/AddDriverForm.class" afterPath="$PROJECT_DIR$/out/production/Kursova/Kurs/AddDriverForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/AddOrderForm.class" afterPath="$PROJECT_DIR$/out/production/Kursova/Kurs/AddOrderForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/CustomerForm.class" afterPath="$PROJECT_DIR$/out/production/Kursova/Kurs/CustomerForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/DeleteDriverForm.class" afterPath="$PROJECT_DIR$/out/production/Kursova/Kurs/DeleteDriverForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/DriversCars.class" afterPath="$PROJECT_DIR$/out/production/Kursova/Kurs/DriversCars.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/SQLDataBase.class" afterPath="$PROJECT_DIR$/out/production/Kursova/Kurs/SQLDataBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/StartForm$1.class" afterPath="$PROJECT_DIR$/out/production/Kursova/Kurs/StartForm$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/StartForm$2.class" afterPath="$PROJECT_DIR$/out/production/Kursova/Kurs/StartForm$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Kursova/Kurs/StartForm.class" afterPath="$PROJECT_DIR$/out/production/Kursova/Kurs/StartForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/AddDriverForm.java" afterPath="$PROJECT_DIR$/src/Kurs/AddDriverForm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/AddOrderForm.form" afterPath="$PROJECT_DIR$/src/Kurs/AddOrderForm.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/AddOrderForm.java" afterPath="$PROJECT_DIR$/src/Kurs/AddOrderForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/CustomerForm.form" afterPath="$PROJECT_DIR$/src/Kurs/CustomerForm.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/CustomerForm.java" afterPath="$PROJECT_DIR$/src/Kurs/CustomerForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/DeleteDriverForm.java" afterPath="$PROJECT_DIR$/src/Kurs/DeleteDriverForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/DriversCars.java" afterPath="$PROJECT_DIR$/src/Kurs/DriversCars.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/DeleteOrderForm.form" afterPath="$PROJECT_DIR$/src/Kurs/DeleteOrderForm.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/DeleteOrderForm.java" afterPath="$PROJECT_DIR$/src/Kurs/DeleteOrderForm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/SQLDataBase.java" afterPath="$PROJECT_DIR$/src/Kurs/SQLDataBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/StartForm.form" afterPath="$PROJECT_DIR$/src/Kurs/StartForm.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kurs/StartForm.java" afterPath="$PROJECT_DIR$/src/Kurs/StartForm.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,36 +26,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeleteCustForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kurs/DeleteCustForm.java">
+      <file leaf-file-name="AddOrderForm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Kurs/AddOrderForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="220">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddOrderForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kurs/AddOrderForm.java">
+      <file leaf-file-name="SQLDataBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kurs/SQLDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="25" column="40" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="25" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteOrderForm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Kurs/DeleteOrderForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="404">
+              <caret line="376" column="54" lean-forward="false" selection-start-line="376" selection-start-column="54" selection-end-line="376" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#SQLReadDrivers#0;class#SQLDataBase#0" expanded="false" />
+                <element signature="e#1456#1469#0" expanded="true" />
+                <element signature="method#SQLReadOrders#0;class#SQLDataBase#0" expanded="false" />
+                <element signature="e#4321#4329#0" expanded="true" />
+                <element signature="method#SQLAddNewDriver#0;class#SQLDataBase#0" expanded="false" />
+                <element signature="method#SQLDeleteDriver#0;class#SQLDataBase#0" expanded="false" />
+                <element signature="method#SQLReadCustomers#0;class#SQLDataBase#0" expanded="false" />
+                <element signature="e#9531#9542#0" expanded="true" />
+                <element signature="method#SQLAddNewCust#0;class#SQLDataBase#0" expanded="false" />
+                <element signature="method#SQLDeleteCust#0;class#SQLDataBase#0" expanded="false" />
+                <element signature="method#SQLAddNewOrder#0;class#SQLDataBase#0" expanded="false" />
+                <marker date="1481473785578" expanded="true" signature="1201:1231" ph="select name_... drivers" />
+                <marker date="1481473785578" expanded="true" signature="1201:1337" ph="select name_... drivers" />
+                <marker date="1481473785578" expanded="true" signature="3796:4135" ph="select order... orders" />
+                <marker date="1481473785578" expanded="true" signature="3796:4137" ph="select order... orders" />
+                <marker date="1481473785578" expanded="true" signature="7866:7896" ph="delete from " />
+                <marker date="1481473785578" expanded="true" signature="7866:7897" ph="delete from " />
+                <marker date="1481473785578" expanded="true" signature="7866:7909" ph="delete from " />
+                <marker date="1481473785578" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
+                <marker date="1481473785578" expanded="true" signature="11193:11246" ph="insert into custumers... " />
+                <marker date="1481473785578" expanded="true" signature="11193:11281" ph="insert into custumers... " />
+                <marker date="1481473785578" expanded="true" signature="11193:11282" ph="insert into custumers... " />
+                <marker date="1481473785578" expanded="true" signature="12415:12427" ph="delete from " />
+                <marker date="1481473785578" expanded="true" signature="12415:12447" ph="delete from " />
+                <marker date="1481473785578" expanded="true" signature="12415:12449" ph="delete from " />
+                <marker date="1481473785578" expanded="true" signature="12415:12460" ph="delete from " />
+                <marker date="1481473785578" expanded="true" signature="14987:15028" ph="delete from " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +83,16 @@
         <entry file="file://$PROJECT_DIR$/src/Kurs/DeleteOrderForm.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Orders.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kurs/Orders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="15" column="158" lean-forward="false" selection-start-line="15" selection-start-column="158" selection-end-line="15" selection-end-column="158" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -103,12 +106,10 @@
       <file leaf-file-name="StartForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kurs/StartForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
+            <state relative-caret-position="217">
               <caret line="71" column="72" lean-forward="false" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1762#1763#0" expanded="true" />
-                <element signature="e#1840#1841#0" expanded="true" />
                 <element signature="e#1999#2000#0" expanded="true" />
                 <element signature="e#2086#2087#0" expanded="true" />
               </folding>
@@ -118,46 +119,20 @@
       </file>
       <file leaf-file-name="StartForm.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kurs/StartForm.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DeleteCustForm.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kurs/DeleteCustForm.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kurs/CustomerForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="52" column="69" lean-forward="false" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-                <element signature="e#1369#1370#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddCustForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kurs/AddCustForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -206,17 +181,17 @@
         <option value="$PROJECT_DIR$/src/Kurs/TableModelCustomers.java" />
         <option value="$PROJECT_DIR$/src/Kurs/CustomerForm.form" />
         <option value="$PROJECT_DIR$/src/Kurs/AddCustForm.form" />
-        <option value="$PROJECT_DIR$/src/Kurs/SQLDataBase.java" />
         <option value="$PROJECT_DIR$/src/Kurs/DeleteCustForm.form" />
         <option value="$PROJECT_DIR$/src/Kurs/CustomerForm.java" />
         <option value="$PROJECT_DIR$/src/Kurs/AddCustForm.java" />
         <option value="$PROJECT_DIR$/src/Kurs/DeleteCustForm.java" />
-        <option value="$PROJECT_DIR$/src/Kurs/AddOrderForm.form" />
-        <option value="$PROJECT_DIR$/src/Kurs/AddOrderForm.java" />
         <option value="$PROJECT_DIR$/src/Kurs/DeleteOrderForm.form" />
         <option value="$PROJECT_DIR$/src/Kurs/StartForm.form" />
         <option value="$PROJECT_DIR$/src/Kurs/StartForm.java" />
+        <option value="$PROJECT_DIR$/src/Kurs/AddOrderForm.form" />
+        <option value="$PROJECT_DIR$/src/Kurs/SQLDataBase.java" />
         <option value="$PROJECT_DIR$/src/Kurs/DeleteOrderForm.java" />
+        <option value="$PROJECT_DIR$/src/Kurs/AddOrderForm.java" />
       </list>
     </option>
   </component>
@@ -250,8 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,50 +254,6 @@
               <option name="myItemId" value="Kurs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StartForm" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kursova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kursova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kurs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kursova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kursova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Kurs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeleteOrderForm" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -351,6 +280,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -735,12 +666,13 @@
       <workItem from="1481123171737" duration="17679000" />
       <workItem from="1481217300564" duration="15106000" />
       <workItem from="1481306212809" duration="7190000" />
-      <workItem from="1481361589394" duration="22877000" />
+      <workItem from="1481361589394" duration="23014000" />
+      <workItem from="1481461534071" duration="7901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85491000" />
+    <option name="totallyTimeSpent" value="93529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,20 +695,20 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35679215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35679215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20196672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20499243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -799,17 +731,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35679215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35679215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20499243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -832,19 +764,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Kurs/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kurs/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Kurs/StartForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -861,24 +789,27 @@
             <element signature="e#4321#4329#0" expanded="true" />
             <element signature="method#SQLAddNewDriver#0;class#SQLDataBase#0" expanded="false" />
             <element signature="method#SQLDeleteDriver#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLReadCustomers#0;class#SQLDataBase#0" expanded="false" />
             <element signature="e#9531#9542#0" expanded="true" />
             <element signature="method#SQLAddNewCust#0;class#SQLDataBase#0" expanded="false" />
-            <marker date="1481397350125" expanded="true" signature="1201:1231" ph="select name_... drivers" />
-            <marker date="1481397350125" expanded="true" signature="1201:1337" ph="select name_... drivers" />
-            <marker date="1481397350125" expanded="true" signature="3796:4135" ph="select order... orders" />
-            <marker date="1481397350125" expanded="true" signature="3796:4137" ph="select order... orders" />
-            <marker date="1481397350125" expanded="true" signature="7866:7896" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="7866:7897" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="7866:7909" ph="delete from " />
-            <marker date="1481397350125" expanded="false" signature="8374:10488" ph="{...}" />
-            <marker date="1481397350125" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
-            <marker date="1481397350125" expanded="true" signature="11193:11246" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="11193:11281" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="11193:11282" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="12415:12427" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12447" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12449" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12460" ph="delete from " />
+            <element signature="method#SQLDeleteCust#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLAddNewOrder#0;class#SQLDataBase#0" expanded="false" />
+            <marker date="1481473785578" expanded="true" signature="1201:1231" ph="select name_... drivers" />
+            <marker date="1481473785578" expanded="true" signature="1201:1337" ph="select name_... drivers" />
+            <marker date="1481473785578" expanded="true" signature="3796:4135" ph="select order... orders" />
+            <marker date="1481473785578" expanded="true" signature="3796:4137" ph="select order... orders" />
+            <marker date="1481473785578" expanded="true" signature="7866:7896" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="7866:7897" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="7866:7909" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
+            <marker date="1481473785578" expanded="true" signature="11193:11246" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="11193:11281" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="11193:11282" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="12415:12427" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12447" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12449" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12460" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="14987:15028" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -890,19 +821,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kurs/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Kurs/StartForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -919,24 +846,27 @@
             <element signature="e#4321#4329#0" expanded="true" />
             <element signature="method#SQLAddNewDriver#0;class#SQLDataBase#0" expanded="false" />
             <element signature="method#SQLDeleteDriver#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLReadCustomers#0;class#SQLDataBase#0" expanded="false" />
             <element signature="e#9531#9542#0" expanded="true" />
             <element signature="method#SQLAddNewCust#0;class#SQLDataBase#0" expanded="false" />
-            <marker date="1481397350125" expanded="true" signature="1201:1231" ph="select name_... drivers" />
-            <marker date="1481397350125" expanded="true" signature="1201:1337" ph="select name_... drivers" />
-            <marker date="1481397350125" expanded="true" signature="3796:4135" ph="select order... orders" />
-            <marker date="1481397350125" expanded="true" signature="3796:4137" ph="select order... orders" />
-            <marker date="1481397350125" expanded="true" signature="7866:7896" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="7866:7897" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="7866:7909" ph="delete from " />
-            <marker date="1481397350125" expanded="false" signature="8374:10488" ph="{...}" />
-            <marker date="1481397350125" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
-            <marker date="1481397350125" expanded="true" signature="11193:11246" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="11193:11281" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="11193:11282" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="12415:12427" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12447" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12449" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12460" ph="delete from " />
+            <element signature="method#SQLDeleteCust#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLAddNewOrder#0;class#SQLDataBase#0" expanded="false" />
+            <marker date="1481473785578" expanded="true" signature="1201:1231" ph="select name_... drivers" />
+            <marker date="1481473785578" expanded="true" signature="1201:1337" ph="select name_... drivers" />
+            <marker date="1481473785578" expanded="true" signature="3796:4135" ph="select order... orders" />
+            <marker date="1481473785578" expanded="true" signature="3796:4137" ph="select order... orders" />
+            <marker date="1481473785578" expanded="true" signature="7866:7896" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="7866:7897" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="7866:7909" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
+            <marker date="1481473785578" expanded="true" signature="11193:11246" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="11193:11281" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="11193:11282" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="12415:12427" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12447" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12449" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12460" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="14987:15028" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -946,19 +876,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kurs/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Kurs/StartForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -975,24 +901,27 @@
             <element signature="e#4321#4329#0" expanded="true" />
             <element signature="method#SQLAddNewDriver#0;class#SQLDataBase#0" expanded="false" />
             <element signature="method#SQLDeleteDriver#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLReadCustomers#0;class#SQLDataBase#0" expanded="false" />
             <element signature="e#9531#9542#0" expanded="true" />
             <element signature="method#SQLAddNewCust#0;class#SQLDataBase#0" expanded="false" />
-            <marker date="1481397350125" expanded="true" signature="1201:1231" ph="select name_... drivers" />
-            <marker date="1481397350125" expanded="true" signature="1201:1337" ph="select name_... drivers" />
-            <marker date="1481397350125" expanded="true" signature="3796:4135" ph="select order... orders" />
-            <marker date="1481397350125" expanded="true" signature="3796:4137" ph="select order... orders" />
-            <marker date="1481397350125" expanded="true" signature="7866:7896" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="7866:7897" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="7866:7909" ph="delete from " />
-            <marker date="1481397350125" expanded="false" signature="8374:10488" ph="{...}" />
-            <marker date="1481397350125" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
-            <marker date="1481397350125" expanded="true" signature="11193:11246" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="11193:11281" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="11193:11282" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="12415:12427" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12447" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12449" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12460" ph="delete from " />
+            <element signature="method#SQLDeleteCust#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLAddNewOrder#0;class#SQLDataBase#0" expanded="false" />
+            <marker date="1481473785578" expanded="true" signature="1201:1231" ph="select name_... drivers" />
+            <marker date="1481473785578" expanded="true" signature="1201:1337" ph="select name_... drivers" />
+            <marker date="1481473785578" expanded="true" signature="3796:4135" ph="select order... orders" />
+            <marker date="1481473785578" expanded="true" signature="3796:4137" ph="select order... orders" />
+            <marker date="1481473785578" expanded="true" signature="7866:7896" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="7866:7897" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="7866:7909" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
+            <marker date="1481473785578" expanded="true" signature="11193:11246" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="11193:11281" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="11193:11282" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="12415:12427" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12447" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12449" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12460" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="14987:15028" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -1004,19 +933,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kurs/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Kurs/StartForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1033,24 +958,27 @@
             <element signature="e#4321#4329#0" expanded="true" />
             <element signature="method#SQLAddNewDriver#0;class#SQLDataBase#0" expanded="false" />
             <element signature="method#SQLDeleteDriver#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLReadCustomers#0;class#SQLDataBase#0" expanded="false" />
             <element signature="e#9531#9542#0" expanded="true" />
             <element signature="method#SQLAddNewCust#0;class#SQLDataBase#0" expanded="false" />
-            <marker date="1481397350125" expanded="true" signature="1201:1231" ph="select name_... drivers" />
-            <marker date="1481397350125" expanded="true" signature="1201:1337" ph="select name_... drivers" />
-            <marker date="1481397350125" expanded="true" signature="3796:4135" ph="select order... orders" />
-            <marker date="1481397350125" expanded="true" signature="3796:4137" ph="select order... orders" />
-            <marker date="1481397350125" expanded="true" signature="7866:7896" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="7866:7897" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="7866:7909" ph="delete from " />
-            <marker date="1481397350125" expanded="false" signature="8374:10488" ph="{...}" />
-            <marker date="1481397350125" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
-            <marker date="1481397350125" expanded="true" signature="11193:11246" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="11193:11281" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="11193:11282" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="12415:12427" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12447" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12449" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12460" ph="delete from " />
+            <element signature="method#SQLDeleteCust#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLAddNewOrder#0;class#SQLDataBase#0" expanded="false" />
+            <marker date="1481473785578" expanded="true" signature="1201:1231" ph="select name_... drivers" />
+            <marker date="1481473785578" expanded="true" signature="1201:1337" ph="select name_... drivers" />
+            <marker date="1481473785578" expanded="true" signature="3796:4135" ph="select order... orders" />
+            <marker date="1481473785578" expanded="true" signature="3796:4137" ph="select order... orders" />
+            <marker date="1481473785578" expanded="true" signature="7866:7896" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="7866:7897" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="7866:7909" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
+            <marker date="1481473785578" expanded="true" signature="11193:11246" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="11193:11281" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="11193:11282" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="12415:12427" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12447" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12449" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12460" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="14987:15028" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -1099,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,7 +1039,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="ui-designer">
@@ -1129,9 +1055,10 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="62.5" y="75.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="75.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1156,7 +1083,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="189.5" y="43.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="190.0" y="43.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1164,22 +1091,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/Orders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="158" lean-forward="false" selection-start-line="15" selection-start-column="158" selection-end-line="15" selection-end-column="158" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kurs/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Kurs/DriversForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1195,18 +1107,18 @@
         <state relative-caret-position="170">
           <caret line="10" column="72" lean-forward="false" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
           <folding>
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="false" />
+            <element signature="e#376#377#0" expanded="false" />
+            <element signature="e#412#413#0" expanded="false" />
+            <element signature="e#440#441#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#514#515#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#618#619#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#736#737#0" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1219,14 +1131,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1315#1316#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/DriversCars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,9 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,40 +1166,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/SQLDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="317" column="82" lean-forward="false" selection-start-line="317" selection-start-column="82" selection-end-line="317" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#SQLReadDrivers#0;class#SQLDataBase#0" expanded="false" />
-            <element signature="e#1456#1469#0" expanded="true" />
-            <element signature="method#SQLReadOrders#0;class#SQLDataBase#0" expanded="false" />
-            <element signature="e#4321#4329#0" expanded="true" />
-            <element signature="method#SQLAddNewDriver#0;class#SQLDataBase#0" expanded="false" />
-            <element signature="method#SQLDeleteDriver#0;class#SQLDataBase#0" expanded="false" />
-            <element signature="e#9531#9542#0" expanded="true" />
-            <element signature="method#SQLAddNewCust#0;class#SQLDataBase#0" expanded="false" />
-            <marker date="1481397350125" expanded="true" signature="1201:1231" ph="select name_... drivers" />
-            <marker date="1481397350125" expanded="true" signature="1201:1337" ph="select name_... drivers" />
-            <marker date="1481397350125" expanded="true" signature="3796:4135" ph="select order... orders" />
-            <marker date="1481397350125" expanded="true" signature="3796:4137" ph="select order... orders" />
-            <marker date="1481397350125" expanded="true" signature="7866:7896" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="7866:7897" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="7866:7909" ph="delete from " />
-            <marker date="1481397350125" expanded="false" signature="8374:10488" ph="{...}" />
-            <marker date="1481397350125" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
-            <marker date="1481397350125" expanded="true" signature="11193:11246" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="11193:11281" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="11193:11282" ph="insert into custumers... " />
-            <marker date="1481397350125" expanded="true" signature="12415:12427" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12447" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12449" ph="delete from " />
-            <marker date="1481397350125" expanded="true" signature="12415:12460" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Kurs/AddDriverForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1311,13 +1178,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kurs/AddCustForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="697">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,84 +1191,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kurs/CustomerForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="731">
           <caret line="52" column="69" lean-forward="false" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kurs/DeleteCustForm.form">
-      <provider selected="true" editor-type-id="ui-designer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kurs/StartForm.form">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kurs/DeleteCustForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="33">
           <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/DeleteOrderForm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/AddOrderForm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/AddOrderForm.java">
+    <entry file="file://$PROJECT_DIR$/src/Kurs/DriversCars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="17">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kurs/StartForm.form">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/src/Kurs/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="158" lean-forward="false" selection-start-line="15" selection-start-column="158" selection-end-line="15" selection-end-column="158" />
+          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kurs/StartForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
+        <state relative-caret-position="217">
           <caret line="71" column="72" lean-forward="false" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
             <element signature="e#1999#2000#0" expanded="true" />
             <element signature="e#2086#2087#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kurs/AddOrderForm.form">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kurs/SQLDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="376" column="54" lean-forward="false" selection-start-line="376" selection-start-column="54" selection-end-line="376" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SQLReadDrivers#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="e#1456#1469#0" expanded="true" />
+            <element signature="method#SQLReadOrders#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="e#4321#4329#0" expanded="true" />
+            <element signature="method#SQLAddNewDriver#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLDeleteDriver#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLReadCustomers#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="e#9531#9542#0" expanded="true" />
+            <element signature="method#SQLAddNewCust#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLDeleteCust#0;class#SQLDataBase#0" expanded="false" />
+            <element signature="method#SQLAddNewOrder#0;class#SQLDataBase#0" expanded="false" />
+            <marker date="1481473785578" expanded="true" signature="1201:1231" ph="select name_... drivers" />
+            <marker date="1481473785578" expanded="true" signature="1201:1337" ph="select name_... drivers" />
+            <marker date="1481473785578" expanded="true" signature="3796:4135" ph="select order... orders" />
+            <marker date="1481473785578" expanded="true" signature="3796:4137" ph="select order... orders" />
+            <marker date="1481473785578" expanded="true" signature="7866:7896" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="7866:7897" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="7866:7909" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="9394:9417" ph="SELECT * FRO... custumers" />
+            <marker date="1481473785578" expanded="true" signature="11193:11246" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="11193:11281" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="11193:11282" ph="insert into custumers... " />
+            <marker date="1481473785578" expanded="true" signature="12415:12427" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12447" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12449" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="12415:12460" ph="delete from " />
+            <marker date="1481473785578" expanded="true" signature="14987:15028" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kurs/DeleteOrderForm.form">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Kurs/DeleteOrderForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="118">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kurs/AddOrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

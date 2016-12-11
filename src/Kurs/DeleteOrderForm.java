@@ -1,23 +1,40 @@
 package Kurs;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * Created by Roma on 11.12.2016.
  */
 public class DeleteOrderForm extends JFrame{
     private JPanel rootpanel;
-    private JTextField textField1;
+    private JTextField textFieldOrdId;
     private JButton deleteButton;
+    String id;
+    SQLDataBase sqlDataBase;
 
     public DeleteOrderForm(){
-        super("Hello, its me");
+        super("Delete order");
         this.setSize(280,120);
         setContentPane(rootpanel);
-        //    this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
         this.setResizable(false);
         this.setLocationRelativeTo(null);
+        sqlDataBase = new SQLDataBase();
+
+        deleteButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                deleteOrd();
+            }
+        });
+    }
+
+    private void deleteOrd(){
+        id = textFieldOrdId.getText().toString();
+        sqlDataBase.SQLDeleteOdrer(id);
+        textFieldOrdId.setText("");
 
     }
 }

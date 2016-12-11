@@ -327,4 +327,63 @@ public class SQLDataBase {
             ex.printStackTrace();
         }
     }
+
+    public void SQLAddNewOrder(String cust_id, String driver_id, String start_address, String finish_address,
+                               String price, String product_name, String weight){
+        try {
+            Class.forName("com.mysql.jdbc.Driver").newInstance();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        String url = "jdbc:mysql://localhost:3306/kursova";
+        String login = "root";
+        String passwd = "1488";
+        try {
+            Connection conn = DriverManager.getConnection(url, login, passwd);
+            System.out.println("Connection established. Write");
+            try {
+                Statement stm = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
+                        ResultSet.CONCUR_READ_ONLY);
+                stm.executeUpdate ("call add_order('"+cust_id+"','"+driver_id+"','"+start_address+"','"+finish_address+
+                        "','"+price+"','"+product_name+"',"+weight+");");
+                stm.close();
+            } catch (SQLException ex) {
+                System.out.println("SQLException: " + ex.getMessage());
+                System.out.println("SQLState: " + ex.getSQLState());
+                System.out.println("VendorError: " + ex.getErrorCode());
+            }
+            conn.close();
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    public void SQLDeleteOdrer(String idOrd){
+        try {
+            Class.forName("com.mysql.jdbc.Driver").newInstance();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            System.out.println("Loh");
+        }
+        String url = "jdbc:mysql://localhost:3306/kursova";
+        String login = "root";
+        String passwd = "1488";
+        try {
+            Connection conn = DriverManager.getConnection(url, login, passwd);
+            System.out.println("Connection established. Delete");
+            try {
+                Statement stm = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
+                        ResultSet.CONCUR_READ_ONLY);
+                stm.executeUpdate ("delete from orders where id = '"+idOrd+"';");
+                stm.close();
+            } catch (SQLException ex) {
+                System.out.println("SQLException: " + ex.getMessage());
+                System.out.println("SQLState: " + ex.getSQLState());
+                System.out.println("VendorError: " + ex.getErrorCode());
+            }
+            conn.close();
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+    }
 }
